@@ -514,11 +514,11 @@ video {
   padding: 1rem;
   font-size: 3rem;
   color: #fff;
-background-color: rgba(0,0,0,.7);
+  background-color: rgba(0, 0, 0, 0.7);
   font-family: EB Garamond, "Times New Roman", Times, serif;
   width: 300px;
   cursor: pointer;
-  transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .play-video-btn:hover {
@@ -526,7 +526,7 @@ background-color: rgba(0,0,0,.7);
   padding: 1rem;
   font-size: 3rem;
   color: #000;
-background-color: rgb(230, 230, 230);
+  background-color: rgb(230, 230, 230);
 }
 
 /* .gradient-overlay {
@@ -976,5 +976,9 @@ background-color: rgb(230, 230, 230);
     font-size: 2.5rem;
     text-align: center;
     text-transform: uppercase;
+  }
+
+  .copyright {
+    margin-top: 10px;
   }
 }
