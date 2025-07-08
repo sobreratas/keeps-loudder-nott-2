@@ -170,7 +170,7 @@ body {
   align-items: center;
   width: 100%;
   background-color: rgb(230, 230, 230);
-    font-family: EB Garamond, "Times New Roman", Times, serif;
+  font-family: EB Garamond, "Times New Roman", Times, serif;
 }
 
 #social-media-section h2 {
@@ -310,6 +310,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+#stories-section h2 {
+  font-size: 4rem;
 }
 
 .stories-wrapper {
@@ -593,16 +597,18 @@ video {
 .footer-box.right a {
   color: #000;
   text-decoration: none;
-  cursor: pointer;
   transition: ease-in-out 0.3s;
   background-color: rgb(230, 230, 230);
   width: 70%;
   padding: 1rem;
   text-align: center;
+  transition: background-color .3 ease-in-out;
 }
 
 .footer-box.right a:hover {
-  text-decoration: underline;
+  cursor: pointer !important;
+  color: #fff;
+  background-color: #555;
 }
 
 .copyright {
@@ -719,8 +725,9 @@ video {
     padding: 2rem 1rem;
   }
 
-   #social-media-section h2 {
-   margin-bottom: 20px;
+  #social-media-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
   }
 
   .social-media-card-container {
@@ -780,7 +787,6 @@ video {
 
   #workshop-section {
     height: 100%;
-    margin-top: 2rem;
     padding: 1rem;
   }
 
@@ -805,7 +811,7 @@ video {
 
   #about-section h2 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 20px;
   }
 
@@ -819,6 +825,10 @@ video {
     padding: 1rem;
   }
 
+  .about-text-container {
+    font-size: 1.4rem;
+  }
+
   .faq-text {
     font-size: 1.4rem;
     margin-top: 20px;
@@ -830,6 +840,12 @@ video {
     height: 100%;
   }
 
+  #stories-section h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
   .stories-wrapper {
     flex-direction: column;
   }
@@ -837,6 +853,10 @@ video {
   .stories-container {
     flex-basis: 100%;
     padding: 1rem;
+  }
+
+  .stories-text-container {
+    font-size: 1.4rem;
   }
 
   /* Overview Mobile Styles */
@@ -864,6 +884,7 @@ video {
   }
 
   .slogan-text-container {
+    font-size: 1.3rem;
     margin-bottom: 30px;
   }
 
@@ -884,6 +905,7 @@ video {
   }
 
   #shipping-section h2 {
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -892,6 +914,7 @@ video {
   }
 
   .shipping-container {
+    font-size: 1.3rem;
     padding: 1.8rem;
   }
 
