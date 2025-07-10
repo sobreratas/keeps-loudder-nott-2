@@ -176,7 +176,7 @@ body {
 .featured-description {
   color: #fff;
   flex-basis: 50%;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   padding: 4rem;
   font-size: 2rem;
   display: flex;
@@ -216,38 +216,6 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   width: 60%;
 }
 
-/* Social Media Styles */
-#social-media-section {
-  height: 100vh;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: rgb(230, 230, 230);
-font-family: Quicksand, Arial, Helvetica, sans-serif;
-}
-
-#social-media-section h2 {
-  font-size: 4rem;
-}
-
-.social-media-card-container {
-  height: 80%;
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 1rem;
-}
-
-.social-media-card-container div {
-  flex-basis: 50%;
-  display: flex;
-  justify-content: center;
-}
-
 /* Merch Styles */
 #merch-section {
   height: 100vh;
@@ -256,7 +224,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   align-items: center;
   flex-direction: column;
   width: 100%;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 #merch-section h2 {
@@ -289,7 +257,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   border: none;
   background-color: #444;
   color: #fff;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
   text-align: center;
 }
@@ -300,7 +268,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 .merch-card p {
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -312,7 +280,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 
 /* Overview Styles */
 #overview-section {
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   height: 100vh;
   padding: 2rem;
   display: flex;
@@ -349,7 +317,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 .overview-card p {
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   font-size: 1.8rem;
   text-align: center;
 }
@@ -357,6 +325,67 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 .overview-card img {
   width: 100%;
   border: none;
+}
+
+/* About Style */
+#about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+#about-section h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  flex-basis: 50%;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+.about-container img {
+  width: 100%;
+}
+
+.about-container.right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 1.8rem;
+}
+
+.about-text-container {
+  width: 100%;
+  flex: 1;
+  padding: 2rem;
+  background-color: rgb(230, 230, 230);
+}
+
+.about-text-container h4 {
+  font-weight: 900;
+}
+
+.read-more {
+  display: block;
+  text-align: right;
+  margin-right: auto;
+  text-decoration: none;
+  color: #000;
+}
+
+.read-more i {
+  font-size: 1rem;
 }
 
 /* Stories Styles */
@@ -367,23 +396,24 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   justify-content: center;
   height: 100vh;
   padding: 2rem;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 #stories-section h2 {
   font-size: 4rem;
+  margin-bottom: 20px;
 }
 
 .stories-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 .stories-container {
   flex-basis: 50%;
   height: 100%;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .stories-container img {
@@ -394,7 +424,6 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: start;
-
   font-size: 1.8rem;
 }
 
@@ -410,7 +439,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   padding: 2rem 2rem 0 2rem;
 }
 
@@ -420,7 +449,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 
 .slogan-text-container {
   font-size: 2rem;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 .slogan-pic-container {
@@ -440,7 +469,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 #workshop-section h2 {
@@ -470,76 +499,6 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 2rem;
   margin: 10px 0;
-}
-
-/* About Style */
-#about-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  padding: 2rem;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
-}
-#about-section h2 {
-  font-size: 4rem;
-  margin-bottom: 20px;
-}
-
-.about-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-container {
-  flex-basis: 50%;
-  height: 100%;
-  padding: 0 2rem;
-}
-
-.about-container img {
-  width: 100%;
-}
-
-.about-container.right {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-
-  font-size: 1.8rem;
-}
-
-.about-text-container {
-  width: 100%;
-  flex: 1;
-  padding: 2rem;
-  background-color: rgb(230, 230, 230);
-}
-
-.about-text-container h4 {
-  font-weight: 900;
-}
-
-.read-more {
-  display: block;
-  text-align: right;
-  margin-right: auto;
-  text-decoration: none;
-  color: #000;
-}
-
-.read-more i {
-  font-size: 1rem;
-}
-
-.faq-title {
-  margin-top: 2rem;
-}
-
-.faq-text {
-  font-size: 1.5rem;
 }
 
 /* Video Section */
@@ -576,7 +535,7 @@ video {
   font-size: 3rem;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7);
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   width: 300px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
@@ -604,6 +563,62 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   z-index: 1;
 } */
 
+/* FAQ Styles */
+#faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+  padding: 2rem;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+#faq-section h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.faq-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  overflow: hidden;
+}
+
+.faq-container {
+  flex-basis: 50%;
+  flex: 1;
+  padding: 0 2rem;
+}
+
+.faq-container img {
+  width: 100%;
+}
+
+.faq-container.right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 1.8rem;
+}
+
+.faq-text-container {
+  width: 100%;
+  flex: 1;
+  padding: 2rem;
+  background-color: rgb(230, 230, 230);
+}
+
+.faq-text-container h4 {
+  font-weight: 900;
+}
+
+.faq-text {
+  font-size: 1.5rem;
+}
+
 /* Shipping Styles */
 #shipping-section {
   height: 100vh;
@@ -611,7 +626,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   overflow: hidden;
 }
 
@@ -644,11 +659,49 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 }
 
 .how-to-order {
-  text-decoration: underline;
+  font-weight: bolder;
+  background-color: rgb(255, 121, 121);
+  display:block;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
 }
 
 .how-to-order-instructions {
   width: 80%;
+}
+
+/* Social Media Styles */
+#social-media-section {
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+#social-media-section h2 {
+  font-size: 4rem;
+}
+
+.social-media-card-container {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-media-card-container div {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 /* Footer Styles */
@@ -660,7 +713,7 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   padding: 1rem;
   background-color: rgb(34, 34, 34);
   color: #fff;
-font-family: Quicksand, Arial, Helvetica, sans-serif;
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
   font-size: 1.4rem;
 }
 
@@ -691,6 +744,10 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
   cursor: pointer !important;
   color: #fff;
   background-color: #555;
+}
+
+.footer-logo {
+  width: 50%;
 }
 
 .copyright {
@@ -1000,6 +1057,33 @@ font-family: Quicksand, Arial, Helvetica, sans-serif;
 
   .slogan-pic-container {
     gap: 2px;
+  }
+
+  /* faq Mobile Styles */
+
+  #faq-section {
+    padding: 2rem 0;
+    height: 100%;
+  }
+
+  #faq-section h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .faq-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .faq-container {
+    flex-basis: 100%;
+    padding: 1rem;
+  }
+
+  .faq-text-container {
+    font-size: 1.4rem;
   }
 
   /* Video Section */
