@@ -364,6 +364,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  padding: 2rem;
 }
 
 #stories-section h2 {
@@ -856,6 +857,9 @@ video {
   }
 
   /* Stories Mobile Styles */
+  #stories-section {
+    padding: 0rem;
+  }
 
   .stories-wrapper {
     height: 100%;
