@@ -476,7 +476,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  padding: 2rem 0;
+  padding: 2rem;
   font-family: EB Garamond, "Times New Roman", Times, serif;
 }
 #about-section h2 {
@@ -600,6 +600,7 @@ video {
 /* Shipping Styles */
 #shipping-section {
   height: 100vh;
+  padding: 2rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -902,6 +903,7 @@ video {
   /* About Mobile Styles */
 
   #about-section {
+    padding: 2rem 0;
     height: 100%;
   }
 
@@ -997,7 +999,7 @@ video {
   /* Shipping Mobile Styles */
   #shipping-section {
     height: 100%;
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
 
   #shipping-section h2 {
@@ -1010,6 +1012,7 @@ video {
   }
 
   .shipping-container {
+    width: 100%;
     font-size: 1.3rem;
     padding: 1.8rem;
   }
