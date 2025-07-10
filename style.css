@@ -151,7 +151,7 @@ body {
 
 .header-background {
   flex: 1;
-  background-image: url("images/header-new-darker.png");
+  background-image: url("images/header-new-darker-compressed.png");
   background-color: rgb(34, 34, 34);
   background-position: center;
   background-size: cover;
