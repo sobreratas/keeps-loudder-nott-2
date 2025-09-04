@@ -1,3 +1,11 @@
+// When the page starts loading
+document.body.classList.add("no-scroll");
+
+// After 2 seconds (when your spinner ends)
+setTimeout(() => {
+  document.body.classList.remove("no-scroll");
+}, 2000);
+
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
 
@@ -21,4 +29,5 @@ document.querySelectorAll(".navbar ul > li > a").forEach((link) => {
 const year = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 
-year.innerHTML = currentYear;ƒ
+year.innerHTML = currentYear;
+ƒ;

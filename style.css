@@ -808,12 +808,16 @@ video {
   margin-bottom: 8px;
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100vh; /* prevents scrolling on some mobile browsers */
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
-
   .loading-container img {
-  width: 100%;
-}
+    width: 100%;
+  }
 
   /* Nav Bar Mobile Styles */
   .logo-bar {
