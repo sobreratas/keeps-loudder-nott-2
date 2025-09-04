@@ -149,6 +149,35 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+  animation: loadingFadeOut 2s step-end forwards;
+}
+
+.loading-container img {
+  width: 50%;
+}
+
+@keyframes loadingFadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
 
 .header-background {
@@ -781,6 +810,11 @@ video {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+  .loading-container img {
+  width: 100%;
+}
+
   /* Nav Bar Mobile Styles */
   .logo-bar {
     background-color: rgb(34, 34, 34);
